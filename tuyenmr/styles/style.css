@@ -133,7 +133,7 @@ h6 {
     top: 0;
     left: 0;
     width: 100%;
-    background: #ffffff;
+    background: #f4f4f4;
     z-index: 10;
     box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
 }
@@ -263,7 +263,7 @@ h6 {
 .navbar_menu li a {
     display: block;
     color: #1e1e27;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
     padding: 20px;
@@ -931,6 +931,7 @@ h6 {
     margin-bottom: 0px;
     line-height: 24px;
     text-transform: uppercase;
+
 }
 
 .newsletter_text p {
@@ -1031,7 +1032,7 @@ h6 {
 
 .footer .install .row img {
     margin: 10px 0 15px 0;
-
+    width: 70%;
 }
 
 .footer .install .d-flex img {
@@ -1044,9 +1045,7 @@ h6 {
     margin-left: 10px;
 }
 
-.tuyen1 {
-    width: 70%;
-}
+
 
 /* bannr-img */
 .banner {
