@@ -1454,16 +1454,23 @@ h6 {
 
     .red_button a {
         font-size: 10px;
+        text-align: center;
     }
 
     .grid_sorting_button {
-        font-size: 12px;
-        padding-left: 10px;
-        min-height: 60px;
+        font-size: 10px;
+        padding-left: 5px;
+
+        padding-right: 5px;
+        min-height: 30px;
+    }
+
+    .discount_text .discount_text_title h2 {
+        font-size: 35px;
     }
 
     .product-item {
-        width: 100%;
+        width: 50%;
         height: auto;
     }
 
