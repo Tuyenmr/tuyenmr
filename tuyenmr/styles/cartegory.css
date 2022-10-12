@@ -74,16 +74,27 @@
 
 .pagnav {
     display: flex;
-    width: 180px;
-    justify-content: space-between;
+    width: 240px;
+
+    gap: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.pagnav li {
+    display: inline-block;
 }
 
 .pagnav li a {
     display: block;
-    padding: 10px;
-    font-size: 20px;
+    padding: 5px 15px;
+    font-size: 16px;
     color: #000;
+    background-color: #f79629;
+    border-radius: 10px;
 }
+
+
 
 .cartegory-left ul li {
     padding: 10px 0;
