@@ -41,6 +41,7 @@
     background-color: #fff;
     border: 1px solid #dddd;
     cursor: pointer;
+    align-items: center;
 }
 
 .cartegory-right-top-item select {
@@ -74,7 +75,6 @@
 
 .pagnav {
     display: flex;
-    width: 240px;
 
     gap: 5px;
     margin-bottom: 20px;
@@ -92,6 +92,7 @@
     color: #000;
     background-color: #f79629;
     border-radius: 10px;
+    font-weight: 500;
 }
 
 
@@ -120,6 +121,7 @@
 
 .t1 ul li a {
     border: none;
+    font-size: 14px;
 }
 
 .t1.block ul {
