@@ -22,6 +22,7 @@
     <!-- CSS File -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/delivery.css">
 </head>
 
 <body>
@@ -89,17 +90,19 @@
         </div>
     </div>
 
-    <section class="card-sp">
+
+    </section>
+    <section class="delivery">
         <div class="container">
             <div class="card-sp-title">
                 <p>home / card</p>
             </div>
             <div class="card-sp-top-wrap">
                 <div class="card-sp-top">
-                    <div class="card-sp-top-card card-top-item">
+                    <div class=" card-top-item">
                         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                     </div>
-                    <div class="card-sp-top-address card-top-item">
+                    <div class="card-sp-top-address card-top-item" style="background-color: #ddd;">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <div class="card-sp-top-payment card-top-item">
@@ -108,91 +111,93 @@
                 </div>
             </div>
         </div>
+
         <div class="container">
-            <div class="card-content d-flex">
-                <div class="card-content-left">
-                    <table>
-                        <tr>
-                            <th> san pham </th>
-                            <th> ten san pham </th>
-                            <th> mau</th>
-                            <th> size </th>
-                            <th> SL </th>
-                            <th> thanh tien </th>
-                            <th> xoa </th>
-
-                        </tr>
-                        <tr>
-                            <td><img src="images/product_1.png" alt=""></td>
-                            <td>
-                                <p>ao so mi</p>
-                            </td>
-                            <td>red</td>
-                            <td>
-                                <p>L</p>
-                            </td>
-                            <td><input type="number" value="1" min="1"></td>
-                            <td>
-                                <p>1000$</p>
-                            </td>
-                            <td><span>X</span></td>
-                        </tr>
-                        <tr>
-                            <td><img src="images/product_2.png" alt=""></td>
-                            <td>
-                                <p>ao so mi</p>
-                            </td>
-                            <td>red</td>
-                            <td>
-                                <p>L</p>
-                            </td>
-                            <td><input type="number" value="1" min="1"></td>
-                            <td>
-                                <p>1000$</p>
-                            </td>
-                            <td><span>X</span></td>
-                        </tr>
-                    </table>
+            <div class="delivery-content d-flex">
+                <div class="delivery-content-left">
+                    <p>vui long chon dia chi giao hang</p>
+                    <div class="delivery-content-left-dangnhap d-flex">
+                        <i class="fas fa-sign-in-alt"></i>
+                        <p>dang nhap (neu ban da co tai khoan)</p>
+                    </div>
+                    <div class="delivery-content-left-khachle d-flex">
+                        <input type="radio" name="loaikhach" checked>
+                        <p><span style="font-weight: bold;">khach le </span>(neu ban khong muon luu thong tin)</p>
+                    </div>
+                    <div class="delivery-content-left-dangky d-flex">
+                        <input type="radio" name="loaikhach">
+                        <p><span style="font-weight: bold;">dang ky </span>(neu ban khong muon luu thong tin)</p>
+                    </div>
+                    <div class="delivery-content-left-input-top d-flex">
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">ho ten <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">dien thoai <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">tinh-thanh pho <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">quan/huyen <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="delivery-content-left-input-bottom">
+                        <label for="">dia chi</label> <span style="color: red;">*</span></label>
+                        <input type="text">
+                    </div>
+                    <div class="delivery-content-left-button d-flex">
+                        <a href="card.html">
+                            &#171 quay lai gio hang</a>
+                        <button>
+                            <p>thanh toan</p>
+                        </button>
+                    </div>
                 </div>
-                <div class="card-content-right">
+                <div class="delivery-content-right">
                     <table>
                         <tr>
-                            <th colspan="2">thanh tien</th>
+                            <th>ten san pham</th>
+                            <th>giam gia</th>
+                            <th>so luong</th>
+                            <th>thanh tien</th>
+                        </tr>
+                        <tr>
+                            <td>ao so mi</td>
+                            <td>-30%</td>
+                            <td>1</td>
+                            <td>2000$</td>
+                        </tr>
+                        <tr>
+                            <td>ao so mi</td>
+                            <td>-20%</td>
+                            <td>1</td>
+                            <td>2000$</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="font-weight: bold;">tong</td>
+                            <td style="font-weight: bold;">100000</td>
 
                         </tr>
                         <tr>
-                            <td>tong san pham</td>
-                            <td>2</td>
+                            <td colspan="3" style="font-weight: bold;">thue vat</td>
+                            <td style="font-weight: bold;">100000</td>
 
                         </tr>
                         <tr>
-                            <td>tong tien hang</td>
-                            <td>
-                                <p>1000 $</p>
-                            </td>
+                            <td colspan="3" style="font-weight: bold;">tong tien hang</td>
+                            <td style="font-weight: bold;">10000</td>
 
                         </tr>
-                        <tr>
-                            <td>tam tinh</td>
-                            <td>
-                                <p>1000 $</p>
-                            </td>
-
-                        </tr>
-
                     </table>
-                    <div class="card-content-right-text">
-                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-                        <p>mua them dc free ship</p>
-
-                    </div>
-                    <div class="card-content-right-button d-flex">
-                        <button>mua tiep</button>
-                        <button><a href="delivery.html" style="color: black;">thanh toan</a></button>
-                    </div>
                 </div>
             </div>
         </div>
+
     </section>
 
     <section class="newsletter mt-4">

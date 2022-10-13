@@ -22,27 +22,27 @@
 }
 
 .cartegory-right-top-item:first-child {
-    flex: 2;
     font-size: 16px;
     font-weight: bold;
 
 }
 
-.cartegory-right-top-item {
-    flex: 1;
-    padding: 0 12px;
-}
 
-.cartegory-right-top-item button {
-    width: 100%;
-    padding: 10px 15px;
+
+.tuyen1 {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
-    border: 1px solid #dddd;
-    cursor: pointer;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tuyen2 {
+    display: flex;
+    gap: 10px;
     align-items: center;
 }
+
 
 .cartegory-right-top-item select {
     width: 100%;
@@ -50,12 +50,13 @@
     display: flex;
     justify-content: space-between;
     background-color: #fff;
-    border: 1px solid #dddd;
+    border: 1px solid #f79629;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 .cartegory-right-top-item h5 {
-    padding: 10px 0;
+    padding: 0;
     border-bottom: 4px solid #f79629;
     display: inline;
 
@@ -128,18 +129,13 @@
     display: block;
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 767px) {
     .cartegory-left {
         display: none;
     }
 
     .cartegory-right {
         width: 100%;
-    }
-
-    .cartegory-right-top-item:first-child {
-        flex: 1;
-
     }
 
     .cartegory-right-top-item h5 {
@@ -153,4 +149,82 @@
     .cartegory-right-top-item select {
         font-size: 12px;
     }
+
+    .cartegory-right-top-item:first-child {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .tuyen2 {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+    .cartegory-left {
+        display: none;
+    }
+
+    .cartegory-right {
+        width: 100%;
+    }
+
+    .cartegory-right-top-item h5 {
+        font-size: 12px;
+    }
+
+    .cartegory-right-top-item span {
+        font-size: 12px;
+    }
+
+    .cartegory-right-top-item select {
+        font-size: 12px;
+    }
+
+    .cartegory-right-top-item:first-child {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .tuyen2 {
+        width: 100%;
+    }
+
+}
+
+.search-box {
+
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #f79629;
+    transition: all 0.5s ease;
+    background-color: #f79629;
+}
+
+.search-box-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+    background-color: #f79629;
+}
+
+.search-box-input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+.search-box.open {
+    width: 200px;
 }

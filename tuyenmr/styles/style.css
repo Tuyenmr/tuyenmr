@@ -1466,6 +1466,17 @@ h6 {
         width: 170px;
 
     }
+
+    .newsletter_submit_btn {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .newsletter_email {
+        height: 40px;
+        width: 100%;
+        padding-left: 15px;
+    }
 }
 
 

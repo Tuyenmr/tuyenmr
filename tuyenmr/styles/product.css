@@ -1,0 +1,244 @@
+.card-fashion {
+    margin-top: 100px;
+}
+
+.card-fahion-content {
+    margin-top: 50px;
+}
+
+.card-fahion-content-left {
+    width: 50%;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-fahion-content-right {
+    width: 50%;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-fahion-content-left-big-img {
+    width: 100%;
+}
+
+.card-fahion-content-left-big-img img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.card-fahion-content-left-small-img {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.card-fahion-content-left-small-img img {
+    width: 23%;
+    cursor: pointer;
+}
+
+.card-fashion-content-right-name p {
+    color: #000;
+    font-size: 14px;
+}
+
+.card-fashion-content-right-price {
+    margin: 12px 0;
+}
+
+.card-fashion-content-right-price p {
+    font-size: 30px;
+}
+
+.size span {
+    display: inline-block;
+    padding: 3px 6px;
+    border: 1px solid #ddd;
+    margin: 12px 10px 12px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.quantity {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.quantity input {
+    width: 60px;
+    height: 40px;
+    padding-left: 3px;
+    font-size: 20px;
+
+}
+
+p {
+    color: #000;
+    margin: 0;
+}
+
+.card-fashion-content-right-button {
+    display: flex;
+    gap: 10px;
+}
+
+.card-fashion-content-right-button button {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    margin: 20px 0 12px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+
+.card-fashion-content-right-button button:first-child {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.card-fashion-content-right-button button:first-child:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.card-fashion-content-right-button button:first-child:hover p {
+    color: #fff;
+}
+
+.card-fashion-content-right-button button:last-child {
+    border: 2px solid #f49621;
+    background-color: #f49621;
+}
+
+.card-fashion-content-right-button button p {
+    margin: 0;
+}
+
+.card-fashion-content-right-icon {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.card-fashion-content-right-icon-item {
+    display: flex;
+    margin-right: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-fashion-content-right-icon-item i {
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+.card-fashion-content-right-bottom {
+    position: relative;
+    border-top: 1px solid #ddd;
+    padding-top: 40px;
+    margin-top: 30px;
+
+}
+
+.card-fashion-content-right-bottom-top {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f49621;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    top: 0px;
+    left: 50%;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+.card-fashion-content-right-bottom-content-big-title {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+}
+
+.card-fashion-content-right-bottom-content-big-title-item {
+    padding: 6px;
+    cursor: pointer;
+    margin-right: 6px;
+
+}
+
+.boder-bottom {
+    border-bottom: 2px solid;
+    transition: all 0.2s ease;
+}
+
+.card-fashion-content-right-bottom-content-big-title-item p {
+    font-size: 16px;
+}
+
+.card-fashion-content-right-bottom-content {
+    padding-top: 20px;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.card-fashion-content-right-bottom-content-baoquan {
+    display: none;
+}
+
+.activeV {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .card-fahion-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card-fahion-content-left {
+        width: 100%;
+    }
+
+    .card-fahion-content-right {
+        width: 100%;
+        padding-left: 0;
+        justify-content: center;
+
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .card-fahion-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card-fahion-content-left {
+        width: 100%;
+    }
+
+    .card-fahion-content-right {
+        width: 100%;
+        padding-left: 0;
+        justify-content: center;
+
+    }
+}
