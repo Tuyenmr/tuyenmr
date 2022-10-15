@@ -257,16 +257,32 @@ h6 {
 
 .navbar_menu li {
     display: inline-block;
+    padding: 20px;
 }
 
 .navbar_menu li a {
     display: block;
     color: #1e1e27;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
-    padding: 20px;
     transition: color 0.3s ease;
+    position: relative;
+}
+
+.navbar_menu li a::after {
+    content: "";
+    position: absolute;
+    background-color: #f49621;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -20px;
+    transition: 0.3s;
+}
+
+.navbar_menu li a:hover::after {
+    width: 100%;
 }
 
 .navbar_menu li a:hover {
@@ -297,6 +313,190 @@ h6 {
 
 .navbar_user li a:hover {
     color: #f49621;
+}
+
+.search-bar {
+    width: 100%;
+    height: 300px;
+    background-color: #ffff;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    animation: search 0.3s;
+    box-shadow: 2px -5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+    width: 90%;
+    border-bottom: 2px solid #1e1e27;
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 30px;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    margin: 20px;
+    padding: 0px 20px
+}
+
+.search-cancel {
+    color: #2727;
+    font-size: 2rem;
+}
+
+.search-bar {
+    display: none;
+}
+
+
+.search-bar-active {
+    display: flex;
+}
+
+@keyframes search {
+    0% {
+        top: -300px;
+    }
+
+    100% {
+        to: 0;
+    }
+}
+
+.form1 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 102;
+
+}
+
+.login-form,
+.sign-up-form {
+    width: 420px;
+    padding: 20px 10px;
+    background-color: #ffff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    position: relative;
+}
+
+.login-form form,
+.sign-up-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.login-form strong,
+.sign-up-form strong {
+    color: #000;
+    font-size: 20px;
+    margin: 2px 7px 7px 7px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+
+}
+
+.login-form input,
+.sign-up-form input {
+    width: 90%;
+    height: 45px;
+    margin: 6px 0;
+    padding: 0 10px;
+    border: 1px solid;
+    outline: none;
+}
+
+.login-form input[type="submit"],
+.sign-up-form input[type="submit"] {
+    background-color: #f79629;
+    color: #000;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    margin-top: 0px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-btns {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-btns a {
+    color: #f79629;
+    font-size: 14px;
+
+}
+
+.sign-up-btn {
+    border-bottom: 1px solid #f79629;
+    line-height: 16px;
+}
+
+.form-cancel {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #f79629;
+}
+
+.login-form,
+.sign-up-form,
+.form1 {
+    display: none;
+}
+
+.login-active,
+.login-active .login-form {
+    display: flex;
+    animation: fade 0.3s;
+
+}
+
+.sign-up-active,
+.sign-up-active .sign-up-form {
+    display: flex;
+    animation: fade 0.3s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .checkout {

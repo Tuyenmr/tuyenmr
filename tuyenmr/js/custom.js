@@ -205,3 +205,19 @@ $(document).ready(function () {
     nextHtml: ">",
   });
 });
+
+$(document).on("click", ".search", function () {
+  $(".search-bar").addClass("search-bar-active");
+});
+$(document).on("click", ".search-cancel", function () {
+  $(".search-bar").removeClass("search-bar-active");
+});
+$(document).on("click", ".user,.already-acount", function () {
+  $(".form1").addClass("login-active").removeClass("sign-up-active");
+});
+$(document).on("click", ".sign-up-btn", function () {
+  $(".form1").addClass("sign-up-active").removeClass("login-active");
+});
+$(document).on("click", ".form-cancel", function () {
+  $(".form1").removeClass("login-active").removeClass("sign-up-active");
+});
