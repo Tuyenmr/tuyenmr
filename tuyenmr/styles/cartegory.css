@@ -55,7 +55,7 @@
     cursor: pointer;
 }
 
-.cartegory-right-top-item h5 {
+.cartegory-right-top-item h4 {
     padding: 0;
     border-bottom: 4px solid #f79629;
     display: inline;
@@ -105,12 +105,13 @@
 
 .cartegory-left ul li a {
     color: black;
-    text-transform: uppercase;
+
     font-size: 16px;
-    border-bottom: 2px solid #f79629;
-    font-weight: 500;
+    font-weight: 200;
 
 }
+
+
 
 .cartegory-left ul li ul li {
     padding-left: 10px;
@@ -122,7 +123,7 @@
 
 .t1 ul li a {
     border: none;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .t1.block ul {
@@ -138,7 +139,7 @@
         width: 100%;
     }
 
-    .cartegory-right-top-item h5 {
+    .cartegory-right-top-item h4 {
         font-size: 12px;
     }
 
@@ -170,7 +171,7 @@
         width: 100%;
     }
 
-    .cartegory-right-top-item h5 {
+    .cartegory-right-top-item h4 {
         font-size: 12px;
     }
 

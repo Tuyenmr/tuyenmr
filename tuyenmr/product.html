@@ -97,7 +97,7 @@
             <div class="card-fahion-content d-flex">
                 <div class="card-fahion-content-left d-flex">
                     <div class="card-fahion-content-left-big-img">
-                        <img src="img/products/f1.jpg" alt="">
+                        <img src="img/products/f1.jpg" alt="" id="zoom">
                     </div>
                     <div class="card-fahion-content-left-small-img">
                         <img src="img/products/f1.jpg" alt="">
@@ -537,6 +537,18 @@
     <script src="js/main.js"></script>
     <!-- <script src="js/jquery.countdown.min.js"></script> -->
     <script src="js/lightslider.js"></script>
+    <!-- zoom -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6" crossorigin="anonymous">
+        </script>
+    <script src="js/zoomsl.min.js"></script>
+    <script>
+        $(function () {
+            $('#zoom').imagezoomsl({
+                zoomrange: [4, 4]
+            })
+        })
+    </script>
 </body>
 
 </html>

@@ -90,7 +90,7 @@ p {
 }
 
 .card-content-left td:first-child img {
-    width: 130px;
+    width: 110px;
 }
 
 .card-content-left td {
@@ -184,6 +184,10 @@ p {
     background-color: #000;
 }
 
+a {
+    color: #fff;
+}
+
 @media only screen and (max-width: 991px) {
     .card-content-right-button button {
         width: 100%;
@@ -225,5 +229,9 @@ p {
         width: 100%;
         margin-top: 30px;
 
+    }
+
+    .card-content-left td:first-child img {
+        width: 90px;
     }
 }

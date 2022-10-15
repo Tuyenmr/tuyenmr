@@ -413,6 +413,10 @@ h6 {
     margin-top: 50px;
 }
 
+.new_arrivals_title h3 {
+    font-weight: 700;
+}
+
 .new_arrivals_sorting {
     display: inline-block;
     border-radius: 3px;
@@ -897,6 +901,56 @@ h6 {
     color: #f79629;
 }
 
+.benefit-icon i {
+    color: rgba(255, 121, 63, 1);
+    box-shadow: 0 0 0 0 rgba(255, 121, 63, 1);
+    animation: pulse-orange 1.5s infinite;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+.discount_text a {
+    animation: pulse-orange2 1.5s infinite;
+}
+
+.categories .categories_text a {
+    animation: pulse-orange2 1.5s infinite;
+}
+
+@keyframes pulse-orange {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 121, 63, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(255, 121, 63, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 121, 63, 0);
+    }
+}
+
+@keyframes pulse-orange2 {
+    0% {
+        transform: scale(0.8);
+    }
+
+    70% {
+        transform: scale(1);
+        color: rgb(255, 114, 0);
+    }
+
+    100% {
+        transform: scale(0.8);
+
+    }
+}
+
+
 .benefit-content {
     padding-left: 22px;
 }
@@ -939,7 +993,7 @@ h6 {
 .newsletter_text p {
     margin-top: 0;
     line-height: 1.7;
-    color: #e9e9e9
+    color: #000
 }
 
 .newsletter_form {
@@ -1095,6 +1149,7 @@ h6 {
     display: flex;
     flex-direction: column;
     margin-right: auto;
+    align-items: center;
 }
 
 .f-slider-text strong {
@@ -1102,6 +1157,8 @@ h6 {
     line-height: 55px;
     margin-top: 10px;
     letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
 
 }
 
@@ -1156,6 +1213,122 @@ h6 {
     display: none;
 }
 
+/* testimonials */
+.testimonials {
+    margin-top: 80px;
+}
+
+.testimonials .testimonials-top {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.testimonials .testimonials-top h4 {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.testimonials .testimonials-top p {
+    font-size: 14px;
+    font-weight: 100;
+    color: #000;
+}
+
+
+.testimonials .card {
+    border: 1px solid #ddd;
+    padding: 32px;
+    border-radius: 1rem;
+    height: 300px;
+    transition: all 0.3s ease;
+
+}
+
+.testimonials .image {
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.testimonials .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.testimonials .card .col:first-child {
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.testimonials .info h5 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.testimonials .info span {
+    font-size: 12px;
+}
+
+.testimonials .rating span:first-child {
+    font-weight: 500;
+    margin-right: 8px;
+
+}
+
+.rating i {
+    color: #f79629;
+}
+
+.testimonials .card:hover {
+    background-color: #f79629;
+
+}
+
+.testimonials .card:hover .rating span:first-child,
+.testimonials .card:hover .col,
+.testimonials .card:hover .col h5 {
+    color: #ddd;
+}
+
+.testimonials .navigation {
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swiper-pagination-bullet {
+    background-color: #f79629;
+    height: 1rem;
+    width: 1rem;
+}
+
+.swiper-pagination-bullet-active {
+    width: 2rem;
+    border-radius: 16px;
+
+}
+
+.custom-button {
+    padding: 10px;
+    border-radius: 50%;
+    color: #f79629;
+    border: 1px solid #f79629;
+    margin-right: 16px;
+    justify-content: center;
+    cursor: pointer;
+    transition: color .3s ease-in;
+}
+
+.custom-button:hover {
+    background-color: #f79629;
+    color: #000;
+}
 
 /* categories */
 .categories {
@@ -1182,14 +1355,14 @@ h6 {
 
 .categories .categories_text {
     position: absolute;
-    left: 50px;
+    left: 20px;
 
 }
 
 .categories .categories_large_item .categories_text {
     position: absolute;
     left: 50px;
-    max-width: 300px;
+    max-width: 210px;
 
 }
 
@@ -1203,7 +1376,7 @@ h6 {
 .categories .categories_text h1 {
     margin-bottom: 10px;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.2;
 }
 
@@ -1215,6 +1388,10 @@ h6 {
     position: relative;
     padding: 0 0 3px;
     display: inline-block;
+}
+
+.none {
+    display: none;
 }
 
 .categories .categories_text a::after {
@@ -1235,6 +1412,7 @@ h6 {
 /* intagram */
 .intagram {
     margin-top: 73px;
+    overflow: hidden;
 }
 
 .intagram_item {
@@ -1443,6 +1621,7 @@ h6 {
 
     .newsletter_text p {
         margin-top: 5px;
+
     }
 
     .full-slide-box {
@@ -1476,6 +1655,28 @@ h6 {
         height: 40px;
         width: 100%;
         padding-left: 15px;
+    }
+
+    .categories .categories_large_item .categories_text {
+        width: 150px;
+        left: 15px;
+    }
+
+    .categories .categories_text {
+        left: 15px;
+    }
+
+    .categories .categories_large_item .categories_text h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .categories .categories_text h4 {
+        font-weight: 500;
+    }
+
+    .categories .categories_large_item .categories_text p {
+        display: none;
     }
 }
 
@@ -1710,4 +1911,81 @@ h6 {
         font-size: 30px;
     }
 
+}
+
+
+@keyframes out-left {
+    from {
+        -webkit-transform: rotate3d(0, 0, 0, 0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+
+    to {
+        -webkit-transform: rotate3d(0, 1, 0, 86deg);
+        transform: rotate3d(0, 1, 0, 86deg);
+    }
+}
+
+@keyframes in-right {
+    from {
+        -webkit-transform: rotate3d(0, -1, 0, 90deg);
+        transform: rotate3d(0, -1, 0, 90deg);
+    }
+
+    to {
+        -webkit-transform: rotate3d(0, 0, 0, 0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+}
+
+@keyframes out-right {
+    from {
+        -webkit-transform: rotate3d(0, 0, 0, 0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+
+    to {
+        -webkit-transform: rotate3d(0, -1, 0, 86deg);
+        transform: rotate3d(0, -1, 0, 86deg);
+    }
+}
+
+.f-slider-text {
+    animation: fadeInLeft 2s both;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        text-align: center;
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        text-align: center;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+        text-align: center;
+    }
 }

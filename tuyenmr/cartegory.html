@@ -97,8 +97,11 @@
         <div class="container">
             <div class="d-flex">
                 <div class="cartegory-left">
+                    <div style="margin: 6px 0 20px 0;">
+                        <h4 style="border-bottom: 4px solid #f79629;; display: inline;">CATEGORY</h4>
+                    </div>
                     <ul>
-                        <li class="t1"><a href="#">Men fashion</a>
+                        <li class=" t1"><a href="#">Men fashion</a>
                             <ul>
                                 <li><a href="">all men's products</a></li>
                                 <li><a href="">30% sale off</a></li>
@@ -127,14 +130,14 @@
 
                             </ul>
                         </li>
-                        <li class="t1"><a href="">ACCSESSORIES</a></li>
+                        <li class="t1"><a href=""> Accsessories </a></li>
                     </ul>
                 </div>
                 <div class="cartegory-right ">
                     <div class=" tuyen1">
                         <div class="cartegory-right-top-item">
 
-                            <h5>ALL PRODUCT</h5>
+                            <h4>ALL PRODUCT</h4>
 
                         </div>
                         <div class="tuyen2">
@@ -767,6 +770,14 @@
     <script src="js/main.js"></script>
     <!-- <script src="js/jquery.countdown.min.js"></script> -->
     <script src="js/lightslider.js"></script>
+    <script>
+        const btn_search = document.querySelector(".search-box-btn");
+
+        btn_search.addEventListener("click", function () {
+            this.parentElement.classList.toggle("open");
+            this.previousElementSibling.focus();
+        });
+    </script>
 </body>
 
 </html>
