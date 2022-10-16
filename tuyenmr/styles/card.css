@@ -37,6 +37,10 @@ p {
     background-color: #fff;
 }
 
+.card-top-item:first-child {
+    animation: pulse-orange 1.5s infinite;
+}
+
 .card-top-item i {
     color: #f79629;
     font-size: 20px;
@@ -163,9 +167,14 @@ p {
     transition: all 0.5s;
 }
 
+.card-content-right-button button a {
+    font-weight: 700;
+}
+
 .card-content-right-button button:first-child {
     background-color: #fff;
     border: 1px solid #ddd;
+    font-weight: 700;
 }
 
 .card-content-right-button button:first-child:hover {

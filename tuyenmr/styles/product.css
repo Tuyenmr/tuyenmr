@@ -105,6 +105,14 @@ p {
     transition: all 0.3s ease;
 }
 
+.new_arrivals_title h3 {
+    text-transform: uppercase;
+}
+
+.card-fashion-content-right-button button p {
+    font-weight: 700;
+}
+
 .card-fashion-content-right-button button:first-child {
     background-color: #fff;
     color: #000;

@@ -73,6 +73,11 @@
 
 }
 
+.delivery-content-left-button a {
+    color: #000;
+    font-weight: 600;
+}
+
 .delivery-content-left-button p {
     display: inline-block;
     font-size: 12px;
@@ -98,9 +103,10 @@
 }
 
 .delivery-content-left-button button:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: #ddd
 }
+
+
 
 .delivery-content-right {
     width: 40%;
@@ -123,6 +129,10 @@
     padding-bottom: 12px;
     border-bottom: 2px solid #ddd;
     font-size: 14px;
+}
+
+.card-top-item:nth-child(2) {
+    animation: pulse-orange 1.5s infinite;
 }
 
 .delivery-content-right table tr th:last-child {

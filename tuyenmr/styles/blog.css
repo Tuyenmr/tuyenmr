@@ -1,0 +1,166 @@
+.blog .blog-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    padding-bottom: 90px;
+}
+
+.blog .blog-img {
+    width: 50%;
+    margin-right: 40px;
+    position: relative;
+
+}
+
+.blog img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.blog .blog-details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.blog .blog-details a {
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+}
+
+.blog .blog-details a::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 11px;
+    right: -60px;
+}
+
+.blog .blog-details a:hover {
+    color: #ddd;
+}
+
+.blog .blog-box h1 {
+    position: absolute;
+    top: -65px;
+    left: 0;
+    font-size: 80px;
+    font-weight: 700;
+    color: #f49621;
+    z-index: -1;
+}
+
+.blog .blog-box2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    padding-bottom: 90px;
+}
+
+.blog .blog-img2 {
+    width: 50%;
+    margin-left: 40px;
+    position: relative;
+
+}
+
+.blog-img2 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.blog .blog-details2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.blog .blog-details2 a {
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+h3 {
+    line-height: 40px;
+    display: block;
+}
+
+.blog .blog-details2 a::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 11px;
+    right: 130px;
+}
+
+.blog .blog-details2 a:hover {
+    color: #ddd;
+}
+
+.blog .blog-box2 h1 {
+    position: absolute;
+    top: -65px;
+    right: 0;
+    font-size: 80px;
+    font-weight: 700;
+    color: #f49621;
+    z-index: -1;
+}
+
+.blog0 {
+    margin-top: 100px;
+}
+
+.blog {
+    padding-top: 70px;
+}
+
+@media only screen and (max-width: 767px) {
+    .blog-box {
+        flex-direction: column;
+    }
+
+    .blog .blog-img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .blog .blog-details {
+        width: 100%;
+    }
+
+    .blog-box2 {
+        flex-direction: column;
+    }
+
+    .blog .blog-img2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .blog .blog-details2 {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+}
