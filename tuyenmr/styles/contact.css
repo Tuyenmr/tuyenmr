@@ -83,14 +83,14 @@ form {
     font-weight: 500;
     font-size: 0.95rem;
     letter-spacing: 0.5px;
-    border-radius: 25px;
+
     transition: 0.3s;
 }
 
 textarea.input {
     padding: 0.8rem 1.2rem;
     min-height: 150px;
-    border-radius: 22px;
+
     resize: none;
     overflow-y: auto;
 }
@@ -116,12 +116,10 @@ textarea.input {
 
 .btn {
     padding: 0.6rem 1.3rem;
-    background-color: #fff;
-    border: 2px solid #fafafa;
+    background-color: #ddd;
     font-size: 0.95rem;
-    color: rgb(244, 150, 33);
+    color: #000;
     line-height: 1;
-    border-radius: 25px;
     outline: none;
     cursor: pointer;
     transition: 0.3s;
@@ -182,6 +180,7 @@ textarea.input {
 .contact-info {
     padding: 2.3rem 2.2rem;
     position: relative;
+    background-color: #ddd;
 }
 
 .contact-info .title {
