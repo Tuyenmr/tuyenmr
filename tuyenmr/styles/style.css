@@ -1906,6 +1906,10 @@ h6 {
         width: 100%;
     }
 
+    .intagram_item {
+        height: 150px;
+    }
+
     .product_slider_item .product-item {
         height: 430px;
     }

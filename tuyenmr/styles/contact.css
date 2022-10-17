@@ -9,7 +9,6 @@
 .form {
     width: 100%;
     background-color: #fff;
-    border-radius: 10px;
     /* box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1); */
     z-index: 1;
     overflow: hidden;
@@ -66,6 +65,7 @@ form {
     font-size: 1.5rem;
     line-height: 1;
     margin-bottom: 0.7rem;
+    text-transform: uppercase;
 }
 
 .input-container {
@@ -186,6 +186,7 @@ textarea.input {
 .contact-info .title {
     color: #000;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .text {
@@ -201,9 +202,9 @@ textarea.input {
     font-size: 0.95rem;
 }
 
-.icon {
-    width: 28px;
-    margin-right: 0.7rem;
+.information p i {
+    color: #f49621;
+    ;
 }
 
 .social-media {
@@ -249,10 +250,6 @@ textarea.input {
 
 p {
     color: #000;
-}
-
-.footer {
-    margin-top: 100px;
 }
 
 
