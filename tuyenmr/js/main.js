@@ -32,15 +32,15 @@ if (btnV) {
   });
 }
 
-const bigImg = document.querySelector(".card-fahion-content-left-big-img img");
-const smallImg = document.querySelectorAll(
-  ".card-fahion-content-left-small-img img"
-);
-smallImg.forEach(function (imgItem, x) {
-  imgItem.addEventListener("click", function () {
-    bigImg.src = imgItem.src;
-  });
-});
+// const bigImg = document.querySelector(".card-fahion-content-left-big-img img");
+// const smallImg = document.querySelectorAll(
+//   ".card-fahion-content-left-small-img img"
+// );
+// smallImg.forEach(function (imgItem, x) {
+//   imgItem.addEventListener("click", function () {
+//     bigImg.src = imgItem.src;
+//   });
+// });
 
 $(document).on(
   "click",

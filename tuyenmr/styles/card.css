@@ -26,6 +26,47 @@ p {
     margin: 50px 0 100px;
 }
 
+.nut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nut button {
+    outline: none;
+    border: none;
+    height: 20px;
+    display: block;
+    background-color: #fff;
+    width: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total {
+    font-size: 25px;
+}
+
+.card-content-left table input {
+    width: 20px !important;
+    height: 20px;
+}
+
+
+.nut input {
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+}
+
 .card-top-item {
     width: 40px;
     height: 40px;
@@ -131,9 +172,10 @@ p {
 }
 
 .card-content-right table td {
-    font-size: 12px;
+    font-size: 16px;
     color: #333;
     padding: 6px 0;
+    font-weight: 700;
 }
 
 .card-content-right tr:nth-child(4) {
@@ -190,7 +232,7 @@ p {
 }
 
 .card-content-right-button button:last-child:hover {
-    background-color: #000;
+    background-color: #ddd;
 }
 
 a {

@@ -106,12 +106,13 @@
     background-color: #ddd
 }
 
+.delivery-content-right img {
+    width: 100%;
+}
 
 
 .delivery-content-right {
     width: 40%;
-    padding-left: 12px;
-    border-left: 2px solid #ddd;
     height: auto;
 }
 

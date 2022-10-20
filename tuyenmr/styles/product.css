@@ -2,9 +2,7 @@
     margin-top: 100px;
 }
 
-.card-fahion-content {
-    margin-top: 50px;
-}
+
 
 .card-fahion-content-left {
     width: 50%;
@@ -17,7 +15,7 @@
     padding-left: 80px;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
 }
 
 .card-fahion-content-left-big-img {
