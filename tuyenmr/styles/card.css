@@ -143,12 +143,16 @@ p {
     border-bottom: 2px solid #ddd;
 }
 
+.card-content-left td:nth-child(1) {
+    max-width: 80px;
+}
+
 .card-content-left td:nth-child(2) {
-    max-width: 130px;
+    max-width: 70px;
 }
 
 .card-content-left td:nth-child(3) {
-    width: 30px;
+    width: 50px;
 }
 
 .card-content-right {
