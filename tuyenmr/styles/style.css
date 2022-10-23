@@ -132,7 +132,7 @@ h6 {
     top: 0;
     left: 0;
     width: 100%;
-    background: #f4f4f4;
+    background: rgb(233, 233, 233);
     z-index: 10;
     box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
 }
@@ -580,7 +580,7 @@ h6 {
     align-items: center;
     width: auto;
     height: 40px;
-    background-color: #f49621;
+    background-color: #f79629;
     border-radius: 0px;
     transition: all 0.3s ease;
 }
@@ -594,11 +594,23 @@ h6 {
     text-align: center;
     line-height: 40px;
     width: 100%;
-
+    position: relative;
+    z-index: 1;
 }
 
-.red_button:hover {
-    background-color: #f79629;
+.red_button a span {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.red_button a:hover span {
+    width: 100%;
 }
 
 .shop_now_button {
@@ -695,26 +707,21 @@ h6 {
     height: 100%;
     pointer-events: none;
     content: '';
-    border: solid 2px rgba(235, 235, 235, 0);
-    border-radius: 3px;
-    transition: all 0.3s ease;
-
+    border: solid 1px rgba(235, 235, 235, 0);
+    transition: all 0.5s ease;
 
 }
 
 .product-item:hover:after {
-    box-shadow: 0 25px 29px rgba(63, 78, 100, 0.15);
-    border: solid 1px #f79629
-}
-
-.boder-left-1px {
-    border-left: solid 1px #e9e9e9;
+    box-shadow: 0 25px 29px rgba(69, 79, 105, 0.18);
+    border: 2px solid #f79629;
 }
 
 .product {
     width: 100%;
     height: 300px;
     border-right: solid 1px #e9e9e9;
+    border-left: solid 1px #e9e9e9;
 }
 
 .product_image {
