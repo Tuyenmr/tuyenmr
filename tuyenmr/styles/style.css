@@ -3,6 +3,7 @@
 
 /* 1. Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -11,7 +12,10 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'League Spartan', sans-serif; */
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Fuzzy Bubbles', cursive;
     font-size: 14px;
     line-height: 23px;
     font-weight: 400;
@@ -540,7 +544,6 @@ h6 {
     font-size: 32px;
     color: #1e1e27;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .logo_container a span {
@@ -1557,12 +1560,11 @@ h6 {
 .categories {
     position: relative;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .categories .categories_item {
     position: relative;
-
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -1573,7 +1575,6 @@ h6 {
 
 .img-fluid {
     max-width: 100%;
-    height: auto;
 }
 
 .categories .categories_text {
@@ -1581,6 +1582,7 @@ h6 {
     left: 15px;
 
 }
+
 
 .categories .categories_large_item .categories_text {
     position: absolute;
@@ -2231,8 +2233,8 @@ h6 {
 }
 
 .counter-up {
-    margin-top: 50px;
-    min-height: 50vh;
+    margin-top: 80px;
+    min-height: 80vh;
     background-size: cover;
     background-attachment: fixed;
     padding: 0 50px;

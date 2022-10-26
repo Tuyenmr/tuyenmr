@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     name: "Hodie shirt",
-    img: "images/product_1.png",
+    img: "images/lv1.jpg",
     price: 300,
     sale: "10%",
     cartegory: "men",
