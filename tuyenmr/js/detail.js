@@ -12,9 +12,9 @@ $(function () {
         </div>
         <div class="card-fahion-content-left-small-img">
             <img src="${product.img}" alt="">
-            <img src="img/products/f2.jpg" alt="">
-            <img src="img/products/f3.jpg" alt="">
-            <img src="img/products/f4.jpg" alt="">
+            <img src="${product.img2}" alt="">
+            <img src="${product.img3}" alt="">
+            <img src="${product.img4}" alt="">
         </div>
     </div>
     <div class="card-fahion-content-right">

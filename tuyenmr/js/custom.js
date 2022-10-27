@@ -9,7 +9,22 @@
 // 4.  Init Favorite
 // 5.  Init Isotope Filtering
 // 6.  Init Slider
+$(document).ready(function () {
+  //Check to see if the window is top if not then display button
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $("#backtop").fadeIn();
+    } else {
+      $("#backtop").fadeOut();
+    }
+  });
 
+  //Click event to scroll to top
+  $("#backtop").click(function () {
+    $("html, body").animate({ scrollTop: 0 }, 800);
+    return false;
+  });
+});
 jQuery(document).ready(function ($) {
   "user strict";
   var mainSlider = $(".main_slider");
@@ -202,7 +217,7 @@ $(document).ready(function () {
     item: 1,
     slideMargin: 0,
     loop: true,
-    speed: 1000,
+    speed: 600,
     controls: false,
     prevHtml: "<",
     nextHtml: ">",
