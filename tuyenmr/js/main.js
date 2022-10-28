@@ -70,7 +70,15 @@ function getVals() {
   }
 
   let displayElement = parent.getElementsByClassName("rangeValues")[0];
-  displayElement.innerHTML = "$" + slide1 + " - $" + slide2;
+  displayElement.innerHTML =
+    "$" +
+    '<span class="min">' +
+    slide1 +
+    "</span>" +
+    " - $" +
+    '<span class="max">' +
+    slide2 +
+    "</span>";
 }
 
 window.onload = function () {
@@ -87,3 +95,22 @@ window.onload = function () {
     }
   }
 };
+
+$(() => {
+  toastr.options = {
+    closeButton: true,
+    debug: true,
+    newestOnTop: false,
+    progressBar: true,
+    positionClass: "toast-top-right",
+    preventDuplicates: false,
+    showDuration: "300",
+    hideDuration: "1000",
+    timeOut: "5000",
+    extendedTimeOut: "1000",
+    showEasing: "swing",
+    hideEasing: "linear",
+    showMethod: "fadeIn",
+    hideMethod: "fadeOut",
+  };
+});

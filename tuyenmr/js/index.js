@@ -17,9 +17,11 @@ const addToCart = (event) => {
       product: event.data.id,
       quantity: 1,
       total: total,
+      size: "L",
     });
   }
   localStorage.setItem("carts", JSON.stringify(cart));
+  toastr["success"]("Thêm sản phẩm thành công!");
   $(".checkout_items").text(cart.length);
 };
 

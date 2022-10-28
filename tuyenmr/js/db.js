@@ -10,6 +10,7 @@ const products = [
     img2: "images/lv12.jpg",
     img3: "images/lv13.jpg",
     img4: "images/lv14.jpg",
+    cartegory2: "Hoodie",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const products = [
     img2: "images/lv22.jpg",
     img3: "images/lv23.jpg",
     img4: "images/lv24.jpg",
+    cartegory2: "T-shirt",
   },
   {
     id: 3,
@@ -34,6 +36,7 @@ const products = [
     img2: "images/lv32.jpg",
     img3: "images/lv33.jpg",
     img4: "images/lv34.jpg",
+    cartegory2: "Sweater",
   },
   {
     id: 4,
@@ -46,6 +49,7 @@ const products = [
     img2: "images/lv42.jpg",
     img3: "images/lv43.jpg",
     img4: "images/lv44.jpg",
+    cartegory2: "T-shirt",
   },
   {
     id: 5,
@@ -58,6 +62,7 @@ const products = [
     img2: "images/lv52.jpg",
     img3: "images/lv53.jpg",
     img4: "images/lv54.jpg",
+    cartegory2: "T-shirt",
   },
   {
     id: 6,
@@ -70,6 +75,7 @@ const products = [
     img2: "images/lv62.jpg",
     img3: "images/lv63.jpg",
     img4: "images/lv64.jpg",
+    cartegory2: "Hoodie",
   },
   {
     id: 7,
@@ -82,6 +88,7 @@ const products = [
     img2: "images/lv72.jpg",
     img3: "images/lv73.jpg",
     img4: "images/lv74.jpg",
+    cartegory2: "T-shirt",
   },
   {
     id: 8,
@@ -94,6 +101,7 @@ const products = [
     img2: "images/lv82.jpg",
     img3: "images/lv83.jpg",
     img4: "images/lv84.jpg",
+    cartegory2: "Hoodie",
   },
   {
     id: 9,
@@ -106,6 +114,7 @@ const products = [
     img2: "images/lv92.jpg",
     img3: "images/lv93.jpg",
     img4: "images/lv94.jpg",
+    cartegory2: "Hoodie",
   },
   {
     id: 10,
@@ -118,6 +127,7 @@ const products = [
     img2: "images/lv101.jpg",
     img3: "images/lv102.jpg",
     img4: "images/lv103.jpg",
+    cartegory2: "T-shirt",
   },
   {
     id: 11,
@@ -130,6 +140,7 @@ const products = [
     img2: "images/lv112.jpg",
     img3: "images/lv113.jpg",
     img4: "images/lv114.jpg",
+    cartegory2: "phu kien",
   },
   {
     id: 12,
@@ -142,6 +153,7 @@ const products = [
     img2: "images/lv_122.jpg",
     img3: "images/lv_123.jpg",
     img4: "images/lv_124.jpg",
+    cartegory2: "phu kien",
   },
   {
     id: 13,
@@ -154,6 +166,7 @@ const products = [
     img2: "images/lv_132.jpg",
     img3: "images/lv_133.jpg",
     img4: "images/lv_134.jpg",
+    cartegory2: "phu kien",
   },
   {
     id: 14,
@@ -166,6 +179,7 @@ const products = [
     img2: "images/lv_142.jpg",
     img3: "images/lv_143.jpg",
     img4: "images/lv_144.jpg",
+    cartegory2: "T-shirt",
   },
   {
     id: 15,
@@ -178,5 +192,6 @@ const products = [
     img2: "images/lv_152.jpg",
     img3: "images/lv_153.jpg",
     img4: "images/lv_154.jpg",
+    cartegory2: "T-shirty",
   },
 ];
