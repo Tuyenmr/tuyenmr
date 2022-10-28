@@ -25,7 +25,7 @@
     font-weight: 700;
 }
 
-.chonsize select {
+.select-size {
     width: 27rem;
     max-width: 100%;
     border: 1px solid rgba(112, 112, 112, 0.3);

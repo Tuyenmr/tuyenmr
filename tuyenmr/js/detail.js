@@ -30,15 +30,13 @@ $(function () {
         <div class="card-fashion-content-right-size">
             
             <div class="size">
-            <span style="font-weight: 600; font-size: 20px;">Size : </span>
-            <div class="chonsize">
+                <span style="font-weight: 600; font-size: 20px;">Size : </span>
                 <select class="select-size" name="" id="">
                 <option value="M">M</option>
                 <option value="L">L</option>
                 <option value="XL">XL</option>
                 <option value="XXl">XXL</option>
-            </div>
-           </select>
+                </select>
                 <p style="color: red;">Please choose </p>
             </div>
             <div class="quantity">
