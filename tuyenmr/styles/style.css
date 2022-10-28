@@ -631,6 +631,16 @@ h6 {
 
 .new_arrivals_title h3 {
     font-weight: 700;
+    display: inline-block;
+}
+
+.new_arrivals_title h3::after {
+    position: absolute;
+    bottom: -5px;
+    left: 2px;
+    width: 50%;
+    height: 4px;
+    background-color: #f49621;
 }
 
 .new_arrivals_sorting {
@@ -1385,7 +1395,7 @@ h6 {
     color: #000;
     margin-block-end: 20px;
     padding-block-end: 20px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -1428,7 +1438,7 @@ h6 {
 }
 
 .footer-link {
-    font-size: 16px;
+    font-size: 14px;
     padding-block: 3px;
     transition: all 0.3s;
 }

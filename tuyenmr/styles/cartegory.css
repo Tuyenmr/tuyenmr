@@ -418,8 +418,51 @@ input[type=range]:focus::-ms-fill-upper {
     font-size: 20px;
 }
 
+.filter-price {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 70%;
+    padding: 10px;
+    border-radius: 25px 0;
+    line-height: 1.4;
+    transition: 0.25s ease;
+    background-color: #fff;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background: #f49621;
+}
+
+.filter-price:is(:hover, :focus-visible) {
+    border-radius: 0;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #000;
+    color: #fff;
+
+}
+
+.product {
+    border-left: none;
+}
+
 .content1 .box1 .text span {
     color: #fff;
+}
+
+.cangiua {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 5px 0
+}
+
+.cangiua label {
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 767px) {
