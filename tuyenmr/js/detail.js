@@ -25,17 +25,19 @@ $(function () {
                 Product code: ${product.id}</p>
         </div>
         <div class="card-fashion-content-right-price">
-            <p> ${product.price} $</p>
+            <span> ${product.price} $</span>
         </div>
         <div class="card-fashion-content-right-size">
             
             <div class="size">
             <span style="font-weight: 600; font-size: 20px;">Size : </span>
-            <select class="select-size" name="" id="">
-            <option value="M">M</option>
-            <option value="L">L</option>
-            <option value="XL">XL</option>
-            <option value="XXl">XXL</option>
+            <div class="chonsize">
+                <select class="select-size" name="" id="">
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXl">XXL</option>
+            </div>
            </select>
                 <p style="color: red;">Please choose </p>
             </div>
@@ -44,12 +46,9 @@ $(function () {
                 <input class="qty-detail" type="number" min="1" value="1">
             </div>
             <div class="card-fashion-content-right-button">
-                <button class="add"><i class="fas fa-shopping-cart "></i>
+                <button class="add btntuyen"><i class="fas fa-shopping-cart "></i>
                     <p>
                         ADD TO CARD</p>
-                </button>
-                <button>
-                    <P>BUY NOW</P>
                 </button>
             </div>
             <div class="card-fashion-content-right-icon">

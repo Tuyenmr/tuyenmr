@@ -634,6 +634,10 @@ h6 {
     display: inline-block;
 }
 
+.contact-card a {
+    color: #f49621;
+}
+
 .new_arrivals_title h3::after {
     position: absolute;
     bottom: -5px;
@@ -1166,6 +1170,10 @@ h6 {
     z-index: 100;
     cursor: pointer;
     animation: pulse-orange 1.5s infinite
+}
+
+#backtop i {
+    font-size: 18px;
 }
 
 .discount_pic {
@@ -1736,7 +1744,6 @@ h6 {
 .categories {
     position: relative;
     overflow: hidden;
-    margin-top: 10px;
 }
 
 .categories .categories_item {
@@ -2461,8 +2468,12 @@ h6 {
     justify-content: space-between;
 }
 
+.content1 .box1 .text {
+    letter-spacing: 4px;
+}
+
 .counter-up .content .box {
-    border: 1px solid #f49621;
+    border: 1px solid #000;
     ;
     width: calc(25% - 30px);
     border-radius: 5px;
