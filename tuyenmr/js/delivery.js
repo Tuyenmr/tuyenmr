@@ -23,7 +23,7 @@ function checkrong(listInput) {
     input.value = input.value.trim();
     if (!input.value) {
       isEmptyErr = true;
-      showError(input, "ko dc de trong");
+      showError(input, "cannot be left blank");
     } else {
       showSuccess(input);
     }
@@ -46,11 +46,11 @@ function chekcEmail(input) {
 function checkLength(input, max, min) {
   input.value = input.value.trim();
   if (input.value.length < min) {
-    showError(input, `phai co it nhat ${min} ky tu`);
+    showError(input, `have at least ${min} characters`);
     return true;
   }
   if (input.value.length > min) {
-    showError(input, `khong dc qua  ${max} ky tu`);
+    showError(input, `no move than  ${max} characters`);
     return true;
   }
   return false;
